@@ -443,3 +443,34 @@
     -ms-transform: rotate(-30deg);
     transform: rotate(-30deg);
 }
+@keyframes move-pupile
+{
+from {left: 17px;}
+to {left: 24px;}
+}
+
+@-moz-keyframes move-pupile
+{
+from {left: 17px;}
+to {left: 24px;}
+}
+
+@-webkit-keyframes move-pupile
+{
+from {left: 17px;}
+to {left: 24px;}
+}
+
+@-o-keyframes move-pupile
+
+{
+from {left: 17px;}
+to {left: 24px;}
+}
+
+#homer .pupile-animation{
+	animation: move-pupile 1s infinite alternate;
+-moz-animation: move-pupile 1s infinite alternate;
+-webkit-animation: move-pupile 1s infinite alternate;
+-o-animation: move-pupile 1s infinite alternate;
+}
